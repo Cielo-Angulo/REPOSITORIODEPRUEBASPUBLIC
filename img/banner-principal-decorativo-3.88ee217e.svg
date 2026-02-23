@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131.705" height="87.023" viewBox="0 0 131.705 87.023">
+  <g id="Grupo_1203523" data-name="Grupo 1203523" transform="translate(0.5 0.5)">
+    <path id="Trazado_1241372" data-name="Trazado 1241372" d="M333.461,203.02H440.422a7.133,7.133,0,0,1,7.131,7.131v32.088a7.133,7.133,0,0,1-7.131,7.131H391.634l-11.11,32.088.57-32.088H333.461a7.133,7.133,0,0,1-7.131-7.131V210.151a7.133,7.133,0,0,1,7.131-7.131Z" transform="translate(-316.348 -194.935)" fill="#d1026e" opacity="0.2"/>
+    <g id="Grupo_1200390" data-name="Grupo 1200390" transform="translate(0)">
+      <path id="Trazado_1241429" data-name="Trazado 1241429" d="M340.461,197.35H447.422a7.133,7.133,0,0,1,7.131,7.131v32.088a7.133,7.133,0,0,1-7.131,7.131H398.634l-11.11,32.088.57-32.088H340.461a7.133,7.133,0,0,1-7.131-7.131V204.481A7.133,7.133,0,0,1,340.461,197.35Z" transform="translate(-333.33 -197.35)" fill="#fff" stroke="#20154c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <text id="Hola_" data-name="Hola!" transform="translate(31.905 30.557)" fill="#20154c" font-size="21" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">Hola</tspan><tspan y="0" fill="#d1026e">!</tspan></text>
+    </g>
+  </g>
+</svg>

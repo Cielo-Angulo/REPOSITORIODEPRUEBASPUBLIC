@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58.03" height="83.677" viewBox="0 0 58.03 83.677">
+  <g id="Grupo_1203516" data-name="Grupo 1203516" transform="translate(11612.725 13083.4)">
+    <path id="Trazado_1241373" data-name="Trazado 1241373" d="M460.785,170.35H425.131A7.133,7.133,0,0,0,418,177.481v42.314a7.133,7.133,0,0,0,7.131,7.131h15.7l15.089,17.827-2.61-17.77,7.487-.057a7.133,7.133,0,0,0,7.131-7.131V177.481a7.133,7.133,0,0,0-7.131-7.131Z" transform="translate(-12022.624 -13253.75)" fill="#5825b3" opacity="0.2"/>
+    <g id="Grupo_1200394" data-name="Grupo 1200394" transform="translate(-11612.225 -13075.784)">
+      <path id="Trazado_1241434" data-name="Trazado 1241434" d="M455.455,175.69H419.8a7.133,7.133,0,0,0-7.131,7.131v42.314a7.133,7.133,0,0,0,7.131,7.131h15.7l15.089,17.827-2.61-17.77,7.487-.057a7.133,7.133,0,0,0,7.131-7.131V182.821a7.133,7.133,0,0,0-7.131-7.131Z" transform="translate(-412.67 -175.69)" fill="#fff" stroke="#20154c" stroke-miterlimit="10" stroke-width="1"/>
+      <text id="Si" transform="translate(12.85 39.342)" fill="#d1026e" font-size="21" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.1em"><tspan x="0" y="0">Si</tspan></text>
+    </g>
+  </g>
+</svg>
