@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Comunicación telefónica y atención al cliente',
+    Description:
+      'La comunicación telefónica es una herramienta clave en la atención al cliente y la proyección de la imagen organizacional. Requiere habilidades como escucha activa, uso adecuado de la voz, lenguaje positivo y manejo del silencio. Un asesor bien preparado puede identificar necesidades, gestionar situaciones complejas y fortalecer la relación con los clientes mediante un trato respetuoso, claro y profesional.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,13 +40,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Comunicación telefónica',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'El papel del asesor en la comunicación telefónica',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Componentes de la comunicación telefónica',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Aspectos a considerar en la comunicación telefónica',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Conductas y tipologías de clientes',
+            hash: 't_1_4',
           },
         ],
       },
@@ -53,6 +77,40 @@ export default {
         numero: '3',
         titulo: 'Tema 3',
         desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Técnicas telefónicas básicas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Comunicación telefónica',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'El papel del asesor en la comunicación telefónica',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Componentes de la comunicación telefónica',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Aspectos a considerar en la comunicación telefónica',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Conductas y tipologías de clientes',
+            hash: 't_5_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -110,13 +168,100 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Comunicación telefónica',
+      significado:
+        'Proceso de intercambio de información a través del teléfono, en el que la voz y el lenguaje verbal permiten transmitir mensajes y proyectar la imagen de la organización.',
+    },
+    {
+      termino: 'Atención al cliente',
+      significado:
+        'Conjunto de acciones orientadas a responder necesidades, inquietudes o solicitudes del cliente mediante un trato respetuoso y profesional.',
+    },
+    {
+      termino: 'Asesor o asesora telefónica',
+      significado:
+        'Persona responsable de atender llamadas, orientar al cliente y representar a la empresa durante la comunicación telefónica.',
+    },
+    {
+      termino: 'Escucha activa',
+      significado:
+        'Habilidad que implica escuchar, analizar, interpretar y responder al mensaje del cliente demostrando comprensión e interés.',
+    },
+    {
+      termino: 'Sonrisa telefónica',
+      significado:
+        'Actitud positiva que se percibe a través de la voz y genera un clima cordial durante la llamada.',
+    },
+    {
+      termino: 'Voz',
+      significado:
+        'Principal herramienta de la comunicación telefónica que transmite emociones, seguridad y confianza al interlocutor.',
+    },
+    {
+      termino: 'Lenguaje verbal',
+      significado:
+        'Uso de palabras y expresiones para comunicar ideas de manera clara y adecuada durante la llamada.',
+    },
+    {
+      termino: 'Silencio',
+      significado:
+        'Pausa comunicativa que, bien utilizada, facilita la reflexión y la participación del cliente.',
+    },
+    {
+      termino: 'Sondeo',
+      significado:
+        'Técnica que consiste en realizar preguntas para obtener información relevante sobre el motivo de la llamada.',
+    },
+    {
+      termino: 'Recapitulación',
+      significado:
+        'Técnica comunicativa que permite repetir con otras palabras la información del cliente para confirmar su correcta comprensión.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Aguirre, C. (2010). Técnicas y elementos de la comunicación telefónica.',
+      link: 'http://sweetxxvengance.blogspot.com.co/2010_09_01_archive.html',
+    },
+    {
+      referencia: 'Baeza, C. (2010). Comunicación telefónica.',
+      link: 'http://claudiatelefonia.blogspot.com.co/',
+    },
+    {
+      referencia: 'CETA. (2012). La tecnología como herramienta terapéutica.',
+      link: 'https://cetadevenezuela.wordpress.com/author/cetadevenezuela/',
+    },
+    {
+      referencia: 'Designroc. (2016). Curso avanzado de escucha activa.',
+      link: '',
+    },
+    {
+      referencia:
+        'Escallón, E. (2007). Escuchar, comprender y mejorar las relaciones. Ministerio de Educación Nacional.',
+      link: 'http://www.mineducacion.gov.co/1621/article-122245.html',
+    },
+    {
+      referencia: 'Foromarketing. (2016). Pregunta alternativa.',
+      link: 'http://www.foromarketing.com/diccionario/pregunta-alternativa/',
+    },
+    {
+      referencia:
+        'Gatti, F. (2013). Técnicas y elementos de la comunicación telefónica.',
+      link:
+        'https://comunicaciones104.files.wordpress.com/2013/05/cortesia_telefonica.pdf',
+    },
+    {
+      referencia:
+        'González, J. (2020). Tipos de preguntas cerradas y abiertas: ventajas y desventajas.',
+      link: 'https://eduteka.icesi.edu.co/articulos/PruebasAbiertasCerradas',
+    },
+    {
+      referencia: 'Reyes, C. P. (2016). Buenos modales al teléfono: operador.',
+      link: '',
+    },
+    {
+      referencia: 'Suárez, D. (2012). Preguntas abiertas y cerradas.',
       link: '',
     },
   ],
@@ -125,14 +270,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Líder del Ecosistema',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermúdez',
+          cargo: 'Responsable de Línea de Producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -140,9 +285,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Oscar Hernán Fuentes Hernández',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Diseño e Innovación Tecnológica Industrial - Regional Risaralda',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -150,19 +302,46 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Nombre responsable', // No especificado en el documento original para este rol
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Cielo Damaris Angulo Rodriguez',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Maria Carolina Tamayo Lopez',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -170,14 +349,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Javier Ricardo Ortiz Puentes',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
